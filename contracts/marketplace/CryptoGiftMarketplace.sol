@@ -3,11 +3,7 @@ pragma solidity ^0.4.24;
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 import "../token/CryptoGiftToken.sol";
 
-/**
- * @title CryptoGiftMarketplace
- * @author Vittorio Minacori (https://github.com/vittominacori)
- * @dev It is Crowdsale contract to sell CryptoGift
- */
+
 contract CryptoGiftMarketplace is TokenRecover {
   using SafeMath for uint256;
 
