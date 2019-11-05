@@ -4,11 +4,7 @@ import "openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol";
 import "openzeppelin-solidity/contracts/access/roles/MinterRole.sol";
 import "eth-token-recover/contracts/TokenRecover.sol";
 
-/**
- * @title CryptoGiftToken
- * @author Vittorio Minacori (https://github.com/vittominacori)
- * @dev It is an ERC721Full with minter role and a struct that identify the gift
- */
+
 contract CryptoGiftToken is ERC721Full, MinterRole, TokenRecover {
 
   // structure that defines a gift
